@@ -1,0 +1,77 @@
+:root {
+  --fundo-texto: #2a2a2a;
+  --branco: #ffffff;
+  --borda: #555555;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.gerador {
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.parametro-senha {
+  margin-top: 30px;
+}
+
+.parametro-senha__titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.parametro-senha-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+}
+
+.parametro-senha__controle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.parametro-senha__botao {
+  background-color: var(--fundo-texto);
+  color: var(--branco);
+  border: 2px solid var(--borda);
+  padding: 24px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.parametro-senha__texto {
+  border-top: 2px solid var(--borda);
+  border-bottom: 2px solid var(--borda);
+  padding: 24px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.icone {
+  margin-top: 20px;
+  width: 48px;
+  display: block;
+}
